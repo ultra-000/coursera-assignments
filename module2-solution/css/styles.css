@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Rubik";
+}
+
+.main-menu {
+    width: 100%;
+    padding: 20px;
+}
+
+.headline {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.option1,
+.option2,
+.option3 {
+    margin-top: 15px;
+    /* margin-right: 5px; */ /* for some reason the margin make them wrap to the next line so I nedded to opt it out */
+    border: 1px solid black;
+    background-color: rgb(154, 154, 154);
+}
+
+.option1 .sub-heading {
+    background-color: rgb(219, 219, 38);
+}
+
+.option2 .sub-heading {
+    color: white;
+    background-color: rgb(149, 46, 46);
+}
+
+.option3 .sub-heading {
+    color: white;
+    background-color: rgb(236, 73, 135);
+}
+
+.sub-heading {
+    float: right;
+    padding: 2px 35px;
+    border: 1px solid black;
+}
+
+.section-content {
+    clear: right;
+    padding: 15px 10px;
+}
+
+@media (min-width: 992px) {
+    .col-lg-4 {
+        width: 33%;
+        float: left;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+    .col-md-6, .col-md-12 {
+        float: left;
+    }
+
+    .col-md-6 {
+        width: 50%;
+    }
+
+    .col-md-12 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px)
+{
+
+}
