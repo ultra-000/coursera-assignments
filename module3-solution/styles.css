@@ -116,6 +116,7 @@ main h2, main h4 {
 
 .menu-item {
     padding: 20px;
+    margin-bottom: 30px;
     border-radius: 20px;
     background-color: rgb(206, 206, 206);
 }
