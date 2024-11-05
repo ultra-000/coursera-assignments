@@ -13,15 +13,15 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
 
 var dc = {};
 
-var homeHtmlUrl = "../../module5-solution/snippets/home-snippet.html"; // relative
+var homeHtmlUrl = "../module5-solution/snippets/home-snippet.html";
 var allCategoriesUrl =
   "https://coursera-jhu-default-rtdb.firebaseio.com/categories.json";
-var categoriesTitleHtml = "../../module5-solution/snippets/categories-title-snippet.html"; // relative (make sure)
-var categoryHtml = "../../module5-solution/snippets/category-snippet.html"; // relative (make sure)
+var categoriesTitleHtml = "../module5-solution/snippets/categories-title-snippet.html";
+var categoryHtml = "../module5-solution/snippets/category-snippet.html";
 var menuItemsUrl =
   "https://coursera-jhu-default-rtdb.firebaseio.com/menu_items/";
-var menuItemsTitleHtml = "../../module5-solution/snippets/menu-items-title.html"; // relative (make sure)
-var menuItemHtml = "../../module5-solution/snippets/menu-item.html"; // relative (make sure)
+var menuItemsTitleHtml = "../module5-solution/snippets/menu-items-title.html";
+var menuItemHtml = "../module5-solution/snippets/menu-item.html";
 
 // Convenience function for inserting innerHTML for 'select'
 var insertHtml = function (selector, html) {
