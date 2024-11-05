@@ -62,7 +62,7 @@ var switchMenuToActive = function () {
 
 // On page load (before images or CSS)
 document.addEventListener("DOMContentLoaded", function (event) {
-  alert("Click on the specials tile it should bring a random category just like the assignment asked");
+  // alert("Click on the specials tile it should bring a random category just like the assignment asked");
 
 // TODO: STEP 0: Look over the code from
 // *** start ***
